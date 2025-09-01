@@ -1,0 +1,21 @@
+$ pnpm run lint && pnpm run build
+
+> shadcnui@ lint /workspace/shadcn-ui
+> eslint --quiet ./src
+
+
+> shadcnui@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+
+warn - The class `duration-[3000ms]` is ambiguous and matches multiple utilities.
+warn - If this is content and not a class, replace it with `duration-&lsqb;3000ms&rsqb;` to silence this warning.
+✓ 1724 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.92 kB │ gzip:   0.45 kB
+dist/assets/index-GsD1xG-4.css   84.68 kB │ gzip:  13.47 kB
+dist/assets/index-CBTKd_78.js   410.43 kB │ gzip: 128.31 kB
+✓ built in 5.20s
